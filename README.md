@@ -1,5 +1,13 @@
 ## Content-Based-Movie-Recommender-System-with-sentiment-analysis-using-AJAX
 
+<p>
+ <img src="https://img.shields.io/badge/-Flutter-23A9F2?style=flat-square&logo=Flutter&logoColor=white"/>
+  <img src="https://img.shields.io/badge/-Figma-D22128?style=flat-square&logo=Figma&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-Node.js-42B883?style=flat-square&logo=Node.js&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-Flask-181717?style=flat-square&logo=Flask&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-MongoDB-123F6D?style=flat-square&logo=MongoDB&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-Python-FA6400?style=flat-square&logo=Python&logoColor=white"/>
+   </p>
 Content Based Recommender System recommends movies similar to the movie user likes and analyses the sentiments on the reviews given by the user for that movie.
 
 The details of the movies(title, genre, runtime, rating, poster, etc) are fetched using an API by TMDB, https://www.themoviedb.org/documentation/api, and using the IMDB id of the movie in the API, I did web scraping to get the reviews given by the user in the IMDB site using beautifulsoup4 and performed sentiment analysis on those reviews.
