@@ -38,9 +38,9 @@ More about Cosine Similarity : [Understanding the Math behind Cosine Similarity]
 
 ## Sentiment Analysis using Naive Bayes Algorithm
 
-![Naive Bayes Classifier](https://raw.githubusercontent.com/shrishtickling/Fuboo-MovieRecommendationApp-/main/1_39U1Ln3tSdFqsfQy6ndxOA.png)
+Naive Bayes classifiers are a collection of classification algorithms based on Bayes’ Theorem. It is not a single algorithm but a family of algorithms where all of them share a common principle, i.e. every pair of features being classified is independent of each other.
 
-![Sentiment Analysis]()
+![Sentiment Analysis](https://raw.githubusercontent.com/shrishtickling/Fuboo-MovieRecommendationApp-/main/sentiment.jpeg)
 
 More about Naive Bayes Classifier : [Understanding Naive Bayes Classifier](https://towardsdatascience.com/introduction-to-na%C3%AFve-bayes-classifier-fa59e3e24aaf)
 
