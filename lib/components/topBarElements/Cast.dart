@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:dio/dio.dart';
-import 'package:shimmer/shimmer.dart';
 
 class Cast extends StatefulWidget {
   final id;
@@ -47,31 +46,26 @@ class _CastState extends State<Cast> {
           child: ListView.builder(
               itemCount: 30,
               itemBuilder: (BuildContext context, int index) {
-                return Shimmer.fromColors(
-                    period: Duration(milliseconds: 2000),
-                    baseColor: Colors.grey[700],
-                    direction: ShimmerDirection.ltr,
-                    highlightColor: Colors.grey[500],
-                    child: Container(
-                        child: Row(
-                      children: [
-                        Container(
-                          margin: EdgeInsets.all(10),
-                          height: 80,
-                          width: 80,
-                          decoration: BoxDecoration(
-                              color: Colors.grey,
-                              borderRadius: BorderRadius.circular(60)),
-                        ),
-                        Container(
-                          margin: EdgeInsets.only(top: 0, right: 10),
-                          padding: EdgeInsets.only(left: 20, bottom: 10),
-                          width: MediaQuery.of(context).size.width * 0.6,
-                          height: 40,
+                return Container(
+                    child: Row(
+                  children: [
+                    Container(
+                      margin: EdgeInsets.all(10),
+                      height: 80,
+                      width: 80,
+                      decoration: BoxDecoration(
                           color: Colors.grey,
-                        ),
-                      ],
-                    )));
+                          borderRadius: BorderRadius.circular(60)),
+                    ),
+                    Container(
+                      margin: EdgeInsets.only(top: 0, right: 10),
+                      padding: EdgeInsets.only(left: 20, bottom: 10),
+                      width: MediaQuery.of(context).size.width * 0.6,
+                      height: 40,
+                      color: Colors.grey,
+                    ),
+                  ],
+                ));
               }));
     return Container();
   }

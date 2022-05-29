@@ -143,49 +143,45 @@ class _HomeState extends State<Home> {
               if (index == 1) return Homecorousel();
               if (index == 3)
                 return GestureDetector(
+                    onTap: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => Swiper(
+                                  userid: widget.id,
+                                  username: widget.username)));
+                    },
                     child: Container(
-                  height: 200,
-                  width: double.infinity,
-                  margin: EdgeInsets.all(8),
-                  child: Stack(
-                    children: [
-                      ClipRRect(
-                        borderRadius: BorderRadius.circular(10),
-                        child: Image(
-                            color: Color.fromRGBO(255, 255, 250, 0.7),
-                            colorBlendMode: BlendMode.modulate,
-                            width: double.infinity,
-                            fit: BoxFit.cover,
-                            image: AssetImage(
-                                random[Random().nextInt(random.length)])),
-                      ),
-                      Positioned(
-                          bottom: 20,
-                          left: 20,
-                          child: Container(
-                              child: Text(
-                            "SWIPE CARDS",
-                            style: TextStyle(
-                                fontFamily: 'Roboto',
+                      height: 200,
+                      width: double.infinity,
+                      margin: EdgeInsets.all(8),
+                      child: Stack(
+                        children: [
+                          ClipRRect(
+                            borderRadius: BorderRadius.circular(10),
+                            child: Image(
+                                color: Color.fromRGBO(255, 255, 250, 0.7),
+                                colorBlendMode: BlendMode.modulate,
+                                width: double.infinity,
+                                fit: BoxFit.cover,
+                                image: AssetImage(
+                                    random[Random().nextInt(random.length)])),
+                          ),
+                          Positioned(
+                              top: 90,
+                              right: 10,
+                              child: Container(
+                                  child: Icon(
+                                AntDesign.rightcircle,
+                                size: 40,
                                 color: Colors.white,
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold),
-                          ))),
-                      Positioned(
-                          top: 90,
-                          right: 10,
-                          child: Container(
-                              child: Icon(
-                            AntDesign.rightcircle,
-                            size: 40,
-                            color: Colors.white,
-                          )))
-                    ],
-                  ),
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(10),
-                  ),
-                ));
+                              )))
+                        ],
+                      ),
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10),
+                      ),
+                    ));
               if (index == 13) {
                 if (s == "") return Container();
                 return getlatest("You searched for " + s,
@@ -212,7 +208,7 @@ class _HomeState extends State<Home> {
                     image: AssetImage("images/logo3.png"),
                   )),
               Container(
-                  margin: EdgeInsets.only(top: 5, left: 175),
+                  margin: EdgeInsets.only(top: 5),
                   child: Text("Fuboo",
                       style: TextStyle(
                         fontFamily: 'Bebas',

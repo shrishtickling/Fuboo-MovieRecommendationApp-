@@ -226,7 +226,7 @@ class _TopbarState extends State<Topbar> {
     return Scaffold(
         backgroundColor: Colors.white,
         body: DefaultTabController(
-            length: 4,
+            length: 3,
             child: moviedetails == null
                 ? Center(child: CircularProgressIndicator())
                 : NestedScrollView(
@@ -250,15 +250,6 @@ class _TopbarState extends State<Topbar> {
                               Tab(
                                 child: Container(
                                   child: Text("About",
-                                      style: TextStyle(
-                                          fontFamily: 'Bebas',
-                                          fontSize: 18,
-                                          color: Colors.black87)),
-                                ),
-                              ),
-                              Tab(
-                                child: Container(
-                                  child: Text("Cast",
                                       style: TextStyle(
                                           fontFamily: 'Bebas',
                                           fontSize: 18,
@@ -425,11 +416,6 @@ class _TopbarState extends State<Topbar> {
                             overview: moviedetails[0]['overview'],
                             moviename: moviedetails[0]['original_title'],
                             id: moviedetails[0]['id']),
-                        Cast(
-                          id: moviedetails[0]['id'],
-                          userid: widget.userid,
-                          username: widget.username,
-                        ),
                         Recommendations(
                             userid: widget.userid,
                             id: moviedetails[0]['id'],

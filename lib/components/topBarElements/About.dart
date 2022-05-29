@@ -291,12 +291,12 @@ class _AboutState extends State<About> {
   Widget getgenres() {
     if (genres == null)
       return Container(
-        height: 50,
+        height: 60,
         child: Center(child: CircularProgressIndicator()),
       );
 
     return Container(
-        height: 50.0,
+        height: 60.0,
         margin: EdgeInsets.only(top: 8),
         width: double.infinity,
         child: ListView.builder(

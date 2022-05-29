@@ -156,7 +156,7 @@ class _SwiperState extends State<Swiper> {
         title: Text(
           "SWIPE RIGHT OR LEFT",
           style: TextStyle(
-              fontFamily: 'Roboto', color: Colors.black87, fontSize: 19),
+              fontFamily: 'Bebas', color: Colors.black87, fontSize: 20),
         ),
         centerTitle: true,
         backgroundColor: Colors.white,

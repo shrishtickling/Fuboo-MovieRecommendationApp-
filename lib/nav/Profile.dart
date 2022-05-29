@@ -47,7 +47,7 @@ class _profiletate extends State<Profile> {
         backgroundColor: Colors.black87,
         body: Container(
             width: double.infinity,
-            height: MediaQuery.of(context).size.width * 1.5,
+            height: double.infinity,
             decoration: BoxDecoration(
               color: Colors.white,
             ),
