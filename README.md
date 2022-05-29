@@ -14,13 +14,24 @@ The details of the movies(title, genre, runtime, rating, poster, etc) are fetche
 
 ## Fuboo_MovieRecommendationApp
 
-I've developed a similar application called "Fuboo" which supports all language movies. But the only thing that differs from this application is that I've used the TMDB's recommendation engine in "The Movie Cinema".
+I've developed a similar movie streaming application called "Fuboo" which supports all language movies. But the only thing that differs from this application is that I've used the TMDB's recommendation engine in "The Movie Cinema".
 
 ## Architecture
 
 ![Recommendation App](https://raw.githubusercontent.com/shrishtickling/Fuboo-MovieRecommendationApp-/main/Architecture.jpeg)
 
+## User Research
 
+![Recommendation App](https://github.com/shrishtickling/Fuboo-MovieRecommendationApp-/blob/main/Project%20Title.png?raw=true)
+
+![Recommendation App](https://github.com/shrishtickling/Fuboo-MovieRecommendationApp-/blob/main/Frame%2085%20(1)%201.png?raw=true)
+
+![Recommendation App](https://github.com/shrishtickling/Fuboo-MovieRecommendationApp-/blob/main/Future%20prospects.png?raw=true)
+
+![Recommendation App](https://github.com/shrishtickling/Fuboo-MovieRecommendationApp-/blob/main/Future%20prospects%20(1).png?raw=true)
+
+
+# ALGORITHMS USED
 ## Similarity Score : 
 
    How does it decide which item is most similar to the item user likes? Here come the similarity scores.
