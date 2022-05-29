@@ -14,7 +14,7 @@ The details of the movies(title, genre, runtime, rating, poster, etc) are fetche
 
 ## Fuboo_MovieRecommendationApp
 
-I've developed a similar application called "Fuboo" which supports all language movies. But the only thing that differs from this application is that I've used the TMDB's recommendation engine in "The Movie Cinema".
+I've developed a similar application called "Fuboo" using flutter which supports all language movies. But the only thing that differs from this application is that I've used the TMDB's recommendation engine in "The Movie Cinema".
 
 ## Architecture
 
