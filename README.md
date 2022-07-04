@@ -1,4 +1,4 @@
-## Content-Based-Movie-Recommender-System-with-sentiment-analysis-using-AJAX
+## Content-Based-Movie-Recommender-System-with-sentiment-analysis
 
 <p>
  <img src="https://img.shields.io/badge/-Flutter-23A9F2?style=flat-square&logo=Flutter&logoColor=white"/>
