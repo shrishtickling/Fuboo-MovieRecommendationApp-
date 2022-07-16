@@ -21,14 +21,11 @@ I've developed a similar movie streaming application called "Fuboo" which suppor
 ![Recommendation App](https://raw.githubusercontent.com/shrishtickling/Fuboo-MovieRecommendationApp-/main/Architecture.jpeg)
 
 ## User Research
-
-![Recommendation App](https://github.com/shrishtickling/Fuboo-MovieRecommendationApp-/blob/main/Project%20Title.png?raw=true)
-
-![Recommendation App](https://github.com/shrishtickling/Fuboo-MovieRecommendationApp-/blob/main/Frame%2085%20(1)%201.png?raw=true)
-
-![Recommendation App](https://github.com/shrishtickling/Fuboo-MovieRecommendationApp-/blob/main/Future%20prospects.png?raw=true)
-
-![Recommendation App](https://github.com/shrishtickling/Fuboo-MovieRecommendationApp-/blob/main/Future%20prospects%20(1).png?raw=true)
+![image](https://user-images.githubusercontent.com/83607556/179366934-12f68af1-4da2-44cb-aac6-103a14e9257a.png)
+![image](https://user-images.githubusercontent.com/83607556/179366942-02a5540c-b101-4e2b-8fd4-882ed2347ab1.png)
+![image](https://user-images.githubusercontent.com/83607556/179366948-5bbe3dfa-a19b-48f4-92e5-618239a93225.png)
+![image](https://user-images.githubusercontent.com/83607556/179366952-3376384d-b90f-458b-84e9-8381aa91739f.png)
+![image](https://user-images.githubusercontent.com/83607556/179366962-768b0138-1956-4d95-9146-40dde0de0309.png)
 
 
 # ALGORITHMS USED
